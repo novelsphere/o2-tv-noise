@@ -1,0 +1,26 @@
+{
+  "name": "o2-tv-noise",
+  "version": "1.0.0",
+  "description": "Show noise like an old tv",
+  "author": "b123400@gmail.com",
+  "scripts": {
+    "lint": "eslint -c .eslintrc.json tv-noise.js",
+    "test": "npm run lint"
+  },
+  "main": "init.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/novelsphere/o2-tv-noise.git"
+  },
+  "keywords": [
+    "o2engine"
+  ],
+  "engines": {
+    "node": ">= 4.0.0",
+    "o2": ">= 2.2"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^2.4.0"
+  }
+}
