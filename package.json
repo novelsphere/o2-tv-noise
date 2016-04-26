@@ -7,7 +7,6 @@
     "lint": "eslint -c .eslintrc.json tv-noise.js",
     "test": "npm run lint"
   },
-  "main": "init.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/novelsphere/o2-tv-noise.git"
@@ -22,5 +21,6 @@
   "dependencies": {},
   "devDependencies": {
     "eslint": "^2.4.0"
-  }
+  },
+  "license": "MIT"
 }
